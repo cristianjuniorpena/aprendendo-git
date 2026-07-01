@@ -1,9 +1,21 @@
-@charset "UTF-8";
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 
-img {
-    width: 700px;
-    max-height: 200px;
-    margin-top: 15%;
-    border-radius: 10px;
-    margin: 0 auto;
+.quadrado {
+    padding: 6rem;
+}
+
+#quadrado-a {
+    background-color: rgba(0, 0, 255, 0.753);
+}
+
+#quadrado-v {
+    background-color: rgba(255, 0, 0, 0.815);
+}
+
+#quadrado-r {
+    background-color: pink;
 }
